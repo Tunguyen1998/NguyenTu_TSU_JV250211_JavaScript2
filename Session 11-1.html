@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let year = prompt ("Nhap vao so nam ban muon kiem tra :");
+
+       if (year % 4 == 0 && year % 100 !== 0) {
+            prompt(`Nam ${year} la nam nhuan.`)
+
+            }
+        else if (year % 100 == 0 && year % 400 == 0 ){
+            prompt(`Nam ${year} la nam nhuan.`)
+        }
+       else {
+            prompt(`Nam ${year} khong la nam nhuan.`)
+       };
+
+
+    </script>
+</body>
+</html>
