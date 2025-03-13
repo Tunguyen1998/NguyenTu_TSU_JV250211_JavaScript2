@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=script, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let admin = prompt ('Hay nhap vao ten dang nhap :');
+        let password;
+        if (admin === 'ADMIN') {
+            password = prompt ('Hay nhap vao mat khau :');
+            
+            if (password === 'TheMaster'){
+                alert(' Welcome.');
+
+            }
+            else if (password === null){
+                alert( ' Cancelled.')
+            }
+            else {
+            alert ( ' Wrong password.')
+            }}
+        else if (admin === null){
+            alert ("Cancelled.")
+            // Trong prompt(), nếu nhấn Cancel, kết quả sẽ là null.
+        }
+        else { alert ("I don't know you .")}
+
+        
+    </script>
+</body>
+</html> 
